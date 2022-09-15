@@ -1,0 +1,10 @@
+@import ''
+
+h1 {
+    color: blueviolet;
+}
+
+strong {
+    color: chocolate;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,30 @@
+<script>
+
+// throw (disparar, lançar)
+
+// try...catch (tentar) (pegar)
+
+// 1 - Tentar executar o código
+// 2 - Se der algum erro esse erro vai ser disparado
+// 3 - Posso capturar esse erro na minha aplicação
+
+
+
+// throw
+function sayMyName (name = '') {
+    if (name === ''){
+        throw 'Nome é obrigatório'
+    }
+    console.log('Depois do erro')
+}
+
+
+//try...catch
+try {
+    sayMyName()
+
+} catch (e){
+    console.log(e)
+}
+
+</script>
